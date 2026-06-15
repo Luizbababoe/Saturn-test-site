@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+ background-color:black;
+
+}
+
+p{
+    color: white
+}
+
+.texto{
+     
+     justify-content: center;
+     display: flex;
+     text-transform: uppercase;
+     font-family: 'serif';
+    background: linear-gradient(to bottom, black,#d8ae6d,#ffe1ab,#dbb57c,black);
+    background-size: 200% 200%;
+    animation: texto 10s linear infinite alternate;
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+ @keyframes texto
+    {
+        0%{
+            background-position: 0%;
+
+        }
+        200%{
+            background-position: 200%;
+
+        }
+    }
+
+.saturn{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
