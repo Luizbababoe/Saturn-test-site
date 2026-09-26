@@ -4,7 +4,7 @@ body{
 
 }
 
-p{
+p {
     color: white
 }
 
@@ -39,9 +39,17 @@ p{
     display: flex;
     justify-content: center;
     height: 100vh;
+
+
 }
+
 
 .major{
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
